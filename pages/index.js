@@ -7,7 +7,9 @@ function Page(){
     return(
         <div>
         <Header/>
-        <PageLayout/>
+        <PageLayout>
+            <Home/>
+        </PageLayout>
         {/*<Home/>*/}
         </div>
     );
