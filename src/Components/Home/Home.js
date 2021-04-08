@@ -1,8 +1,13 @@
 import React from "react";
+import ImageCarousel from "./ImageCarousel/ImageCarousel";
 
 function Home(){
     return(
-        <div className="rounded bg-gray-400 grid grid-cols-1">
+        
+        <div className="rounded bg-gray-200 grid grid-cols-1">
+
+            <ImageCarousel/>
+
             {/* Department Mission */}
             <div className="p-6 m-4 bg-gray-300 rounded">
                 <h6 className="text-2xl text-gray-600 text-bold text-center">Department Mission</h6>
