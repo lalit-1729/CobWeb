@@ -14,16 +14,16 @@ function Navbar(){
         <div className="rounded md:col-span-1 m-3 bg-gray-800">
             <nav >
                 <div className="">
-                    <div className="border-b border-gray-100 flex justify-between  md:flex md:justify-center items-center">
-                    <h1 className="text-l font-bold  uppercase p-4">
-                        <a className="text-gray-300 cursor-pointer text-xl hover:text-gray-100">Electronics Department</a>
-                    </h1>
+                    <div className="mx-4 border-b border-gray-100 flex justify-between  md:flex md:justify-center items-center">
+                        <h1 className="text-l font-bold  uppercase p-4">
+                            <a className="text-gray-300 cursor-pointer text-xl hover:text-gray-100">Electronics Department</a>
+                        </h1>
 
-                    <div className="px-4 cursor-pointer md:hidden" id="menuButton">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="text-gray-400 h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </div>
+                        <div className="px-4 cursor-pointer md:hidden" id="menuButton">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="text-gray-400 h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
 
