@@ -2,7 +2,7 @@ import React from "react";
 
 function FacultyHeader(){
     return(
-        <div className="bg-gray-200 p-5 mb-3">
+        <div className="bg-gray-300 p-5 mb-3">
                 {/* Heading */}
                 <div className="col-span-1 flex justify-center mt-3 ">
                     <span className="text-center">

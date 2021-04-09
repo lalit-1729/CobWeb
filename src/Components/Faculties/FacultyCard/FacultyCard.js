@@ -1,8 +1,7 @@
 import React from "react";
-import {ToastContainer, toast} from "react-toastify";
-import 'react-toastify/dist/ReactToastify.css';
+import KnowMorePopUp from "./KnowMorePopUp/KnowMorePopUp";
 
-function FacultyCard({imageSrc, name, qualification, designation, email}){
+function FacultyCard({imageSrc, name, qualification, designation, email, teachingField, areaOfResearch}){
 
     const myStyle = {
         width:300,
@@ -15,7 +14,7 @@ function FacultyCard({imageSrc, name, qualification, designation, email}){
             <div className="mb-3 ">
                 <p className="block rounded text-gray-800 font-bold text-lg">{name} </p>
                 <p className="block text-md text-gray-600">{qualification}</p>
-                <p className="block text-gray-600">{designation}</p>
+                <p className="block flex justify-between items-center text-gray-600">{designation}<KnowMorePopUp teachingField={teachingField} areaOfResearch={areaOfResearch}/></p>
             </div>
             
             <div className="mb-3 flex justify-around px-3">
@@ -26,7 +25,6 @@ function FacultyCard({imageSrc, name, qualification, designation, email}){
 
             <div>
                 <span className="flex text-gray-600 font-bold">email: <h1 className="font-semibold">&nbsp;{email}</h1></span>
-                <button className="block">Know More</button>
             </div>
         </div>
     );

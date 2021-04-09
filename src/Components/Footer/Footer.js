@@ -20,6 +20,18 @@ function Footer(){
                     </div>
                 </div>
             </div>
+
+            <div>
+                <h1>Follow us on: </h1>
+                <div className="flex justify-center">
+                    <span className="flex items-center uppercase p-3"><img className="w-10" src="images/Footer-icons/Facebook-icon.svg"/>&nbsp;<a>Facebook</a></span>
+                    <span className="flex items-center uppercase p-3"><img className="w-10" src="images/Footer-icons/YouTube-icon.svg"/>Youtube</span>
+                    <span className="flex items-center uppercase p-3"><img className="w-10" src="images/Footer-icons/Instagram-icon.svg"/>Instagram</span>
+                    <span className="flex items-center uppercase p-3"><img className="w-10" src="images/Footer-icons/LinkedIn-icon.svg"/>LinkedIn</span>
+                    <span className="flex items-center uppercase p-3"><img className="w-10" src="images/Footer-icons/Twitter-icon.svg"/>Twitter</span>
+                </div>
+            </div>
+
         </div>
     );
 };
