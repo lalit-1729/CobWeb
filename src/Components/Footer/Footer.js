@@ -24,11 +24,11 @@ function Footer(){
             <div className="px-5 pt-1 pb-3">
                 <h1 className="flex justify-center text-xl">Follow us on: </h1>
                     <div className="flex justify-center px-2 pb-2 pt-1">
-                        <a><span className="flex items-center text-gray-600 font-semibold p-1 md:p-3"><img className="w-10" src="images/Footer-icons/Facebook-icon.svg"/>&nbsp;<p className="hidden md:block">Facebook</p></span></a>
+                        <a href="https://m.facebook.com/Electronics-Communication-Engineering-Department-SVNIT-Surat-1704224663140554/"><span className="cursor-pointer flex items-center text-gray-600 font-semibold p-1 md:p-3"><img className="w-10" src="images/Footer-icons/Facebook-icon.svg"/>&nbsp;<p className="hidden md:block">Facebook</p></span></a>
                         {/* <span className="flex items-center text-gray-600 font-semibold uppercase p-3"><img className="w-10" src="images/Footer-icons/YouTube-icon.svg"/>&nbsp;<a>Youtube</a></span> */}
-                        <a><span className="flex items-center text-gray-600 font-semibold p-1 md:p-3"><img className="w-10" src="images/Footer-icons/Instagram-icon.svg"/>&nbsp;<p className="hidden md:block">Instagram</p></span></a>
-                        <a><span className="flex items-center text-gray-600 font-semibold p-1 md:p-3"><img className="w-10" src="images/Footer-icons/LinkedIn-icon.svg"/>&nbsp;<p className="hidden md:block">LinkedIn</p></span></a>
-                        <a><span className="flex items-center text-gray-600 font-semibold p-1 md:p-3"><img className="w-10" src="images/Footer-icons/Twitter-icon.svg"/>&nbsp;<p className="hidden md:block">Twitter</p></span></a>
+                        <a href="https://instagram.com/svnit.official?igshid=rwlvhryzfii2"><span className="cursor-pointer flex items-center text-gray-600 font-semibold p-1 md:p-3"><img className="w-10" src="images/Footer-icons/Instagram-icon.svg"/>&nbsp;<p className="hidden md:block">Instagram</p></span></a>
+                        <a href="https://www.linkedin.com/company/s-v-national-institute-of-technology-svnit-surat-nit-surat-"><span className="cursor-pointer flex items-center text-gray-600 font-semibold p-1 md:p-3"><img className="w-10" src="images/Footer-icons/LinkedIn-icon.svg"/>&nbsp;<p className="hidden md:block">LinkedIn</p></span></a>
+                        <a href="https://twitter.com/NIT_Surat?s=20"><span className="cursor-pointer flex items-center text-gray-600 font-semibold p-1 md:p-3"><img className="w-10" src="images/Footer-icons/Twitter-icon.svg"/>&nbsp;<p className="hidden md:block">Twitter</p></span></a>
                     </div>
             </div>
             <div className="bg-gray-800">
