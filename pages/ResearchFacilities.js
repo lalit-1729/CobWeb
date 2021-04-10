@@ -1,19 +1,19 @@
 import React from "react";
 import Footer from "../src/Components/Footer/Footer";
 import Header from  "../src/Components/Header/Header";
-import Home from "../src/Components/Home/Home";
+import Facilities from "../src/Components/Faclities/Facilities";
 import PageLayout from "../src/Components/PageLayout/PageLayout";
 
-function Page(){
+function ResearchFacilities(){
     return(
         <div>
             <Header/>
                 <PageLayout>
-                    <Home/>
+                    <Facilities/>
                 </PageLayout>
             <Footer/>
         </div>
     );
 };
 
-export default Page;
+export default ResearchFacilities;

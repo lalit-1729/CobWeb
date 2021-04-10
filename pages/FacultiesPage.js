@@ -8,12 +8,10 @@ function FacultiesPage(){
     return(
         <div>
             <Header/>
-
-            <PageLayout>
-                <Faculties/>
-            </PageLayout>
+                <PageLayout>
+                    <Faculties/>
+                </PageLayout>
             <Footer/>
-            
         </div>
     );
 };
