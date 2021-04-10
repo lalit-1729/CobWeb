@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+table{
+  border-collapse: collapse;
+  width:100%;
+  overflow-x: scroll;
+}
+
 .scroll-hide::-webkit-scrollbar{
     display:none;
 }

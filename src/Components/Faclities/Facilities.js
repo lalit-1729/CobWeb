@@ -5,7 +5,7 @@ import FacilitiesHeader from "./FacilitiesHeader/FacilitiesHeader";
 function Facilities(){
 
     const divStyler = {
-        height:600
+        height:550
     }
 
     const FacilitiesArray = [

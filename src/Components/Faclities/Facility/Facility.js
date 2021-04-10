@@ -1,6 +1,3 @@
-
-
-
 import React from "react";
 
 function Facility({SerialNo, NameOfLab, PresentFacilities, YearOfEstablishment, CostOfAsset, UsageCharges}){

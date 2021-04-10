@@ -44,13 +44,11 @@ function Navbar(){
                     </li>
 
                     <li className="flex flex-row text-gray-400 text-xl px-6 pb-6">
-                        <img src="images/svgs/Research.svg" style={myStyle}/><a className="hover:text-gray-100">&nbsp;Research</a>
+                        <img src="images/svgs/Research.svg" style={myStyle}/><a className="hover:text-gray-100" href="ResearchPage">&nbsp;Projects</a>
                     </li>
 
-                    <li className="flex flex-row  text-gray-400 text-xl px-6 pb-6">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg><a className="hover:text-gray-100">&nbsp;Contact</a>
+                    <li className="flex flex-row text-gray-400 text-xl px-6 pb-6">
+                        <img className="w-6" src="images/svgs/Facilities.svg"/><a href="ResearchFacilities" className="hover:text-gray-100">&nbsp;Facilities</a>
                     </li>
                 </ul>
             </nav>
