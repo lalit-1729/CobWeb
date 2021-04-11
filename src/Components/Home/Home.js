@@ -1,10 +1,13 @@
 import React from "react";
 import ImageCarousel from "./ImageCarousel/ImageCarousel";
+import HomeHeader from "./HomeHeader/HomeHeader"
 
 function Home(){
     return(
         
         <div className="rounded bg-gray-200 grid grid-cols-1">
+            
+            <HomeHeader/>
 
             <ImageCarousel/>
 
